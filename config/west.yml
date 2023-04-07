@@ -1,10 +1,10 @@
 manifest:
   remotes:
-    - name: zmkfirmware-arqubusier
+    - name: zmkfirmware
       url-base: https://github.com/arqubusier
   projects:
     - name: zmk
-      remote: zmkfirmware-arqubusier
+      remote: zmkfirmware
       revision: grapto_v3w
       import: app/west.yml
   self:
