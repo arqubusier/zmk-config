@@ -4,8 +4,8 @@ manifest:
       url-base: https://github.com/arqubusier
   projects:
     - name: zmk
-      remote: zmkfirmware
-      revision: main
+      remote: zmkfirmware-arqubusier
+      revision: grapto_v3w
       import: app/west.yml
   self:
     path: config
